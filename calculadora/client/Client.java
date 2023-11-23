@@ -15,7 +15,6 @@ public class Client {
 			Scanner scanner = new Scanner(System.in);
 			int escolha = -1;
 			while(escolha != 0){
-
 				System.out.println("Escolha a operação:");
 				System.out.println("1 - Adição");
 				System.out.println("2 - Subtração");
@@ -57,6 +56,7 @@ public class Client {
 				}
 
 				System.out.println("Resultado: " + resultado);
+				System.out.println("-------------------------------------------------------------");
 			}
 			
         } catch (Exception e) {
